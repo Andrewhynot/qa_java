@@ -1,5 +1,5 @@
 
-package LionTests;
+package testlion;
 
 
 import com.example.Feline;

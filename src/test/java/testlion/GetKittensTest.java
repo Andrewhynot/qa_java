@@ -1,4 +1,4 @@
-package LionTests;
+package testlion;
 
 
 import com.example.Feline;
@@ -18,7 +18,6 @@ public class GetKittensTest {
 
     public GetKittensTest(String sex){
         this.sex = sex;
-
 
     }
 
@@ -40,7 +39,6 @@ public class GetKittensTest {
         Lion lion = new Lion(sex, feline);
         Mockito.when(feline.getKittens()).thenReturn(1);
         Assert.assertEquals(1, lion.getKittens());
-
     }
 
 }

@@ -1,21 +1,21 @@
-package FelineTests;
+package testfeline;
 
 
 import com.example.Feline;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
+
 @RunWith(Parameterized.class)
-public class GetKittensNotDefaultTest {
+public class KittenParametrizedTest {
 
     private final int kittenCountParam;
     private final int expectedKittenCount;
 
-    public GetKittensNotDefaultTest(int kittenCountParam, int expectedKittenCount){
+    public KittenParametrizedTest(int kittenCountParam, int expectedKittenCount){
         this.kittenCountParam = kittenCountParam;
         this.expectedKittenCount = expectedKittenCount;
     }

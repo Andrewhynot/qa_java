@@ -1,4 +1,4 @@
-package LionTests;
+package testlion;
 
 import com.example.Feline;
 import org.junit.Assert;
